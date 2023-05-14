@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* <---------- PRODUCT LIST PAGE START ----------> */
+
+.container{
+    max-width: 1000px; /*Largura maxima do conteudo do site*/
+    width: 100%;
+	margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+/* <---------- PRODUCT LIST TOP START ----------> */
+
+.top-header{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:  1px solid rgba(0,0,0,.125);
+}
+
+.top-header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+}
+
+.btn-list{
+   padding-bottom: 1%;
+   padding-left: 50%;
+   margin-left: 5%;
+}
+
+
+#delete-product-btn,
+#cancel{
+    font-size: 15px;
+    background: rgb(255,0,0,0.5);
+    color: white;
+    border: 2px solid rgb(0,0,0,0.5);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+#add-product-btn,
+#save_product{
+    font-size: 15px;
+    background: #3d3d3d;
+    color: white;
+    border: 2px solid rgb(0,0,0,0.5);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/* <---------- PRODUCT LIST TOP END ----------> */
+
+
+/* <---------- PRODUCTS TYPES LIST START ----------> */
+
+.product-dvd,
+.product-book,
+.product-furniture{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width: 20%;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1.8%;
+    margin-top: 1.7%;
+    margin-left: 2%;
+    float: left;
+    
+}
+
+.product-dvd p,
+.product-book p,
+.product-furniture p{
+    text-align: center;
+    line-height: 21px;
+}
+
+/* <---------- PRODUCTS TYPES LIST END----------> */
+
+
+/* <---------- PRODUCTS LIST PAGE END ----------> */
+
+
+/* <---------- ADD PRODUCTS PAGE START ----------> */
+
+.separator{
+    margin-top: 2%;
+}
+
+/* <---------- INPUTS PRODUCTS START ----------> */
+
+.sku-flex,
+.name-flex,
+.price-flex,
+.switcher-flex,
+.dvd-flex,
+.book-flex,
+.furniture-flex,
+.furnitureWidith-flex,
+.furnitureLenght-flex{
+    display: flex;
+}
+
+.sku-flex p,
+.name-flex p,
+.price-flex p,
+.dvd-flex p,
+.book-flex p,
+.switcher-flex p,
+.furniture-flex p,
+.furnitureWidth-flex p,
+.furnitureLenght-flex p{
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 1%;
+    position: absolute;
+}
+
+#sku,
+#name,
+#price,
+#size,
+#weight,
+#width,
+#height,
+#length{
+    background: rgb(255, 255, 255, 0.5);
+	border: 2px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+	padding: 1.5%;
+    margin-left: 10%;
+	color: #000;
+	margin-bottom: 2%;
+	width: 250px;
+}
+
+#sku-warning,
+#Warning-Size,
+#Warning-Weight,
+#Warning-Furniture,
+#Warning-Product,
+#warning-message,
+.Warning-Type{
+    display: none;
+    color: red;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+#sku-warning,
+#warning-message,
+#Warning-Product{
+    padding-bottom: 2%;
+}
+
+#alert-Size,
+#alert-Weight,
+#alert-Furniture{
+    font-weight: 550;
+    font-size: 1.2em;
+}
+
+/* <---------- INPUTS PRODUCTS END ----------> */
+
+
+/* <---------- SWITCHER TYPE START ----------> */
+
+#productType{
+    background: rgb(255, 255, 255, 0.5);
+	border: 2px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+	padding: 1.5%;
+    margin-left: 16%;
+	color: #000;
+	margin-bottom: 2%;
+    width: 200px;
+}
+
+/* <---------- SWITCHER TYPE END ----------> */
+
+
+/* <---------- FOOTER START ----------> */
+
+footer{
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top:1px solid rgba(0,0,0,.125);
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+/* <---------- FOOTER END ---------> */
